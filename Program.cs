@@ -7,6 +7,9 @@ using DataStructureAndAlgorithms;
 #endregion
 
 #region 2-IsPalindrome
-IsPalindrome_Solution.Input();
+//IsPalindrome_Solution.Input();
 #endregion
 
+#region 3-InsertionSort_Result
+InsertionSort_Result.InsertionSort();
+#endregion
