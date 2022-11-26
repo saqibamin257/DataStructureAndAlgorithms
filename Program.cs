@@ -11,5 +11,9 @@ using DataStructureAndAlgorithms;
 #endregion
 
 #region 3-InsertionSort_Result
-InsertionSort_Result.InsertionSort();
+//InsertionSort_Result.InsertionSort();
+#endregion
+
+#region 4-Array-ReverseArray-StringOrNumeric
+new ReverseArray_Solution().ReverseArray();
 #endregion
