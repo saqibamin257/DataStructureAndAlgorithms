@@ -8,41 +8,23 @@ namespace DataStructureAndAlgorithms
 {
     internal class IsPalindrome_Result
     {
-        public string IsPalindrome(string str) 
+        public string IsPalindrome(string str)
         {
             int MaxLength = str.Length;
-            int MinLength = 1;
-            int Range = Convert.ToInt32(Math.Ceiling(Convert.ToDecimal(MinLength + MaxLength) / 2));
-            for(int i=0; i<Range-1; i++) 
+            int Range = Convert.ToInt32(Math.Floor(Convert.ToDecimal(MaxLength) / 2));
+            int Length = MaxLength - 1;
+            for (int i = 0; i < Range; i++)
             {
-                if (checkLeft(str[i],str,i) != checkRight(str[i], str, i)) 
-                {
+                if (str[i] != str[Length - i])
                     return "Not Palindrome!";
-                }                
             }
             return "Palindrome!";
-        }
-
-        internal bool checkLeft(char ch, string str, int index) 
-        {
-            if (str[index] == ch)
-                return true;
-            else
-                return false;
-        }
-        internal bool checkRight(char ch, string str, int index)
-        {
-            int length = str.Length-1;
-            if (str[length - index] == ch)
-                return true;
-            else
-                return false;
         }
     }
 
     internal class IsPalindrome_Solution
     {
-        public static void Input() 
+        public static void Input()
         {
             //string str = "KAYAK";
             //string str = "MADAM";
@@ -53,6 +35,6 @@ namespace DataStructureAndAlgorithms
             IsPalindrome_Result objResult = new IsPalindrome_Result();
             string result = objResult.IsPalindrome(str);
             Console.WriteLine($"{str} is {result}");
-        }        
+        }
     }
 }
