@@ -23,5 +23,9 @@ using DataStructureAndAlgorithms;
 #endregion
 
 #region (5) LinkedList -Create3Nodes
-new LinkedList_Solution().Input();
+//new LinkedList_Solution().Input();
+#endregion
+
+#region (5-b) Single Linked List - Create 3 Nodes and Print Nodes Data
+new SingleLinkList_Solution().Input();
 #endregion
