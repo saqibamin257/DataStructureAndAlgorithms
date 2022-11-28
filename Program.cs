@@ -19,5 +19,9 @@ using DataStructureAndAlgorithms;
 #endregion
 
 #region 4(b)-Array-ReverseArrayByRecursion
-ReverseArraybyRecursion.Input();
+//ReverseArraybyRecursion.Input();
+#endregion
+
+#region (5) LinkedList -Create3Nodes
+new LinkedList_Solution().Input();
 #endregion
