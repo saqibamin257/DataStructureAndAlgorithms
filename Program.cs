@@ -7,7 +7,7 @@ using DataStructureAndAlgorithms;
 #endregion
 
 #region 2-IsPalindrome
-IsPalindrome_Solution.Input();
+//IsPalindrome_Solution.Input();
 #endregion
 
 #region 3-InsertionSort_Result
@@ -16,4 +16,8 @@ IsPalindrome_Solution.Input();
 
 #region 4-Array-ReverseArray-StringOrNumeric
 //new ReverseArray_Solution().ReverseArray();
+#endregion
+
+#region 4(b)-Array-ReverseArrayByRecursion
+ReverseArraybyRecursion.Input();
 #endregion
