@@ -27,7 +27,7 @@ namespace DataStructureAndAlgorithms
                     k++;
                 }
             }
-            //sort temp []
+            ///sort temp []
             Array.Sort(temp);
 
             // copy the elements of temp[]
@@ -61,11 +61,14 @@ namespace DataStructureAndAlgorithms
     {
         public void Input() 
         {
+            //CASE-1
+
             //int[,] matrix = {
             //    {5,4,7 },
             //    {1,3,8},
             //    {2,9,6}};
 
+            //CASE-2
             int[,] matrix = { {10,4,6,8 },
                               {12,16,14,18 },
                               {2,22,24,20 } };
