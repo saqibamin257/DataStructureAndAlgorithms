@@ -66,5 +66,9 @@ using DataStructureAndAlgorithms;
 #endregion
 
 #region(7-b) Diagonal Elements and their squares
-new Matrix_SquareOfDiagonalElements_Solution().Input();
+//new Matrix_SquareOfDiagonalElements_Solution().Input();
+#endregion
+
+#region (7-c) Swap Major and Minor Diagonal
+new SwapMajorAndMinorDiagonal().SwapDiagonals();
 #endregion
