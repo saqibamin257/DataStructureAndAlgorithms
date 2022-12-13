@@ -74,5 +74,9 @@ using DataStructureAndAlgorithms;
 #endregion
 
 #region 8- Stack
-new Stack_Result().StackOperation();
+//new Stack_Result().StackOperation();
+#endregion
+
+#region 8(a)-Stack- BalancedBrackets
+new BalancedBrackets_Solution().Input();
 #endregion
