@@ -70,5 +70,9 @@ using DataStructureAndAlgorithms;
 #endregion
 
 #region (7-c) Swap Major and Minor Diagonal
-new SwapMajorAndMinorDiagonal().SwapDiagonals();
+//new SwapMajorAndMinorDiagonal().SwapDiagonals();
+#endregion
+
+#region 8- Stack
+new Stack_Result().StackOperation();
 #endregion
