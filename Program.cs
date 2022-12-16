@@ -82,5 +82,9 @@ using DataStructureAndAlgorithms;
 #endregion
 
 #region 9-Queue
-new Queue_Result().QueueOperations();
+//new Queue_Result().QueueOperations();
+#endregion
+
+#region 10- Binary Tree Creation
+new BinaryTree().Input();
 #endregion
