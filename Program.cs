@@ -86,5 +86,13 @@ using DataStructureAndAlgorithms;
 #endregion
 
 #region 10- Binary Tree Creation
-new BinaryTree().Input();
+//new BinaryTree().Input();
 #endregion
+
+#region 10(a) - BinaryTree Insertion
+new BinaryTree_Insertion_Solution().Input();
+#endregion
+
+
+
+
