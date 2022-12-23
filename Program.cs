@@ -90,7 +90,11 @@ using DataStructureAndAlgorithms;
 #endregion
 
 #region 10(a) - BinaryTree Insertion
-new BinaryTree_Insertion_Solution().Input();
+//new BinaryTree_Insertion_Solution().Input();
+#endregion
+
+#region 10(b) - Binary Search Tree Insertion
+new BinarySearchTree_Solution().Input();
 #endregion
 
 
