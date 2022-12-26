@@ -94,9 +94,12 @@ using DataStructureAndAlgorithms;
 #endregion
 
 #region 10(b) - Binary Search Tree Insertion
-new BinarySearchTree_Solution().Input();
+//new BinarySearchTree_Solution().Input();
 #endregion
 
+#region 10(c) Binary Search Tree - Searching
+new BinarySearchTree_Searching().Input();
+#endregion
 
 
 
